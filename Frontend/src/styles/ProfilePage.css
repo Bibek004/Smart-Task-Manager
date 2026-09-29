@@ -1,0 +1,116 @@
+/* ProfilePage.css */
+
+.profile-container {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.profile-header h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.profile-header button {
+  padding: 0.6rem 1.2rem;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.profile-header button:hover {
+  opacity: 0.9;
+}
+
+/* Profile Details */
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.profile-details div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.profile-details strong {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.profile-details input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-left: 1rem;
+  width: 250px;
+}
+
+.profile-actions {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.profile-actions button {
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.profile-actions button:hover {
+  opacity: 0.9;
+}
+
+.profile-actions .delete-account {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.profile-actions .delete-account:hover {
+  background-color: #c0392b;
+}
+
+
+.update-password,
+.delete-tasks {
+  margin-top: 2rem;
+  text-align: center;
+  align-items: center;
+}
+
+.update-password input {
+  display: block;
+  
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.danger-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  cursor: pointer;
+  
+  border-radius: 5px;
+}
