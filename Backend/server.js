@@ -10,8 +10,8 @@ require("dotenv").config();
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 
-//
-require('./cronJobs');
+// 
+require('./cronJobs'); // when we require a folder, node looks for index.js inside it
 
 
 // Create an Express application
